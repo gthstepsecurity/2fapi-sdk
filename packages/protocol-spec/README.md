@@ -1,8 +1,10 @@
 # @2fapi/protocol-spec
 
-> Canonical protocol specification for 2FApi Zero-Knowledge Proof Authentication.
+> Canonical protocol specification for Continuum Ghost Zero-Knowledge Proof Authentication.
 
-This package contains **no implementation** — only constants, types, and interfaces that define the 2FApi protocol. It is the shared contract between clients and servers.
+Part of the **Continuum Ghost** authentication platform — *The Secret That Doesn't Exist*.
+
+This package contains **no implementation** — only constants, types, and interfaces that define the @2fapi protocol. It is the shared contract between clients and servers.
 
 ## Installation
 
@@ -19,7 +21,7 @@ npm install @2fapi/protocol-spec
 
 ## Protocol Overview
 
-2FApi uses a Schnorr/Sigma proof system over Ristretto255 with Pedersen commitments:
+Continuum Ghost uses a Schnorr/Sigma proof system over Ristretto255 with Pedersen commitments:
 
 - **Commitment**: `C = s·G + r·H` (client stores secret, server stores commitment)
 - **Proof**: Sigma protocol with Fiat-Shamir transform for non-interactivity

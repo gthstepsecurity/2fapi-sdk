@@ -1,7 +1,7 @@
 {
   "name": "@2fapi/protocol-spec",
-  "version": "1.0.1",
-  "description": "2FApi Protocol Specification — Zero-Knowledge Proof Authentication for APIs",
+  "version": "1.1.0",
+  "description": "Continuum Ghost Protocol Specification — Zero-Knowledge Proof Authentication for APIs",
   "license": "Apache-2.0",
   "author": "Continuum Identity <contact@continuum-identity.com>",
   "homepage": "https://github.com/gthstepsecurity/2fapi-sdk",

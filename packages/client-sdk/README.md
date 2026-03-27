@@ -2,6 +2,8 @@
 
 > Generate Zero-Knowledge Proofs for API authentication. Prove you know the secret. Never reveal it.
 
+Part of the **Continuum Ghost** authentication platform — *The Secret That Doesn't Exist*.
+
 ## Installation
 
 ```bash
