@@ -1,6 +1,6 @@
 {
   "name": "@2fapi/client-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "2FApi Client SDK — Generate ZK proofs for API authentication",
   "license": "Apache-2.0",
   "author": "Continuum Identity <contact@continuum-identity.com>",
@@ -10,16 +10,30 @@
     "url": "https://github.com/gthstepsecurity/2fapi-sdk.git",
     "directory": "packages/client-sdk"
   },
-  "keywords": ["zkproof", "authentication", "client-sdk", "wasm", "ristretto255"],
+  "keywords": [
+    "zkproof",
+    "authentication",
+    "client-sdk",
+    "wasm",
+    "ristretto255"
+  ],
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist/", "LICENSE", "README.md"],
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md"
+  ],
   "dependencies": {
     "@2fapi/protocol-spec": "^1.0.0"
   },
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
   }
 }
