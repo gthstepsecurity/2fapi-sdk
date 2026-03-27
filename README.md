@@ -14,21 +14,9 @@ A database breach reveals only commitments — mathematical values that are usel
 | [`@2fapi/client-sdk`](./packages/client-sdk) | Client SDK: ZK proof generation for browsers and Node.js | Apache 2.0 |
 | [`@2fapi/server`](https://github.com/gthstepsecurity/2fapi-server) | Verification server (separate repo) | [BSL 1.1](https://github.com/gthstepsecurity/2fapi-server/blob/main/LICENSE) |
 
-## Quick Start
+## Getting Started
 
-```bash
-npm install @2fapi/client-sdk
-```
-
-```typescript
-import { generateCommitment, generateProof } from "@2fapi/client-sdk";
-
-// Registration (once) — generate commitment, send to server
-const commitment = generateCommitment(secret, blindingFactor);
-
-// Authentication (each time) — prove knowledge without revealing the secret
-const proof = generateProof({ secret, blindingFactor, commitment, nonce });
-```
+See the **[Getting Started Guide](./docs/getting-started.md)** for a complete walkthrough: start the server, enroll a client, authenticate, and receive a token — with working curl commands.
 
 ## How It Works
 
