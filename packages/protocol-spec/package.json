@@ -1,6 +1,6 @@
 {
   "name": "@2fapi/protocol-spec",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "2FApi Protocol Specification — Zero-Knowledge Proof Authentication for APIs",
   "license": "Apache-2.0",
   "author": "Continuum Identity <contact@continuum-identity.com>",
@@ -10,13 +10,29 @@
     "url": "https://github.com/gthstepsecurity/2fapi-sdk.git",
     "directory": "packages/protocol-spec"
   },
-  "keywords": ["zkproof", "authentication", "api-security", "pedersen", "sigma-protocol", "ristretto255", "zero-knowledge"],
+  "keywords": [
+    "zkproof",
+    "authentication",
+    "api-security",
+    "pedersen",
+    "sigma-protocol",
+    "ristretto255",
+    "zero-knowledge"
+  ],
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist/", "spec/", "LICENSE", "README.md"],
+  "files": [
+    "dist/",
+    "spec/",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2"
   }
 }
